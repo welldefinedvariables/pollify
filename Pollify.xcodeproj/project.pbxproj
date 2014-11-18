@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC5D37EF1A1C0E31007B4DFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D37EE1A1C0E31007B4DFB /* AppDelegate.swift */; };
+		EC5D37F11A1C0E31007B4DFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D37F01A1C0E31007B4DFB /* ViewController.swift */; };
+		EC5D37F41A1C0E31007B4DFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5D37F21A1C0E31007B4DFB /* Main.storyboard */; };
+		EC5D37F61A1C0E31007B4DFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5D37F51A1C0E31007B4DFB /* Images.xcassets */; };
+		EC5D37F91A1C0E31007B4DFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC5D37F71A1C0E31007B4DFB /* LaunchScreen.xib */; };
+		EC5D38051A1C0E32007B4DFB /* PollifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5D38041A1C0E32007B4DFB /* PollifyTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC5D37FF1A1C0E32007B4DFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC5D37E11A1C0E30007B4DFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC5D37E81A1C0E30007B4DFB;
+			remoteInfo = Pollify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC5D37E91A1C0E31007B4DFB /* Pollify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pollify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5D37ED1A1C0E31007B4DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5D37EE1A1C0E31007B4DFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC5D37F01A1C0E31007B4DFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC5D37F31A1C0E31007B4DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC5D37F51A1C0E31007B4DFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC5D37F81A1C0E31007B4DFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC5D37FE1A1C0E32007B4DFB /* PollifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PollifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5D38031A1C0E32007B4DFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5D38041A1C0E32007B4DFB /* PollifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PollifyTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC5D37E61A1C0E30007B4DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5D37FB1A1C0E32007B4DFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC5D37E01A1C0E30007B4DFB = {
+			isa = PBXGroup;
+			children = (
+				EC5D37EB1A1C0E31007B4DFB /* Pollify */,
+				EC5D38011A1C0E32007B4DFB /* PollifyTests */,
+				EC5D37EA1A1C0E31007B4DFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC5D37EA1A1C0E31007B4DFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D37E91A1C0E31007B4DFB /* Pollify.app */,
+				EC5D37FE1A1C0E32007B4DFB /* PollifyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC5D37EB1A1C0E31007B4DFB /* Pollify */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D37EE1A1C0E31007B4DFB /* AppDelegate.swift */,
+				EC5D37F01A1C0E31007B4DFB /* ViewController.swift */,
+				EC5D37F21A1C0E31007B4DFB /* Main.storyboard */,
+				EC5D37F51A1C0E31007B4DFB /* Images.xcassets */,
+				EC5D37F71A1C0E31007B4DFB /* LaunchScreen.xib */,
+				EC5D37EC1A1C0E31007B4DFB /* Supporting Files */,
+			);
+			path = Pollify;
+			sourceTree = "<group>";
+		};
+		EC5D37EC1A1C0E31007B4DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D37ED1A1C0E31007B4DFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC5D38011A1C0E32007B4DFB /* PollifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D38041A1C0E32007B4DFB /* PollifyTests.swift */,
+				EC5D38021A1C0E32007B4DFB /* Supporting Files */,
+			);
+			path = PollifyTests;
+			sourceTree = "<group>";
+		};
+		EC5D38021A1C0E32007B4DFB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC5D38031A1C0E32007B4DFB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC5D37E81A1C0E30007B4DFB /* Pollify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5D38081A1C0E32007B4DFB /* Build configuration list for PBXNativeTarget "Pollify" */;
+			buildPhases = (
+				EC5D37E51A1C0E30007B4DFB /* Sources */,
+				EC5D37E61A1C0E30007B4DFB /* Frameworks */,
+				EC5D37E71A1C0E30007B4DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pollify;
+			productName = Pollify;
+			productReference = EC5D37E91A1C0E31007B4DFB /* Pollify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC5D37FD1A1C0E32007B4DFB /* PollifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC5D380B1A1C0E32007B4DFB /* Build configuration list for PBXNativeTarget "PollifyTests" */;
+			buildPhases = (
+				EC5D37FA1A1C0E32007B4DFB /* Sources */,
+				EC5D37FB1A1C0E32007B4DFB /* Frameworks */,
+				EC5D37FC1A1C0E32007B4DFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC5D38001A1C0E32007B4DFB /* PBXTargetDependency */,
+			);
+			name = PollifyTests;
+			productName = PollifyTests;
+			productReference = EC5D37FE1A1C0E32007B4DFB /* PollifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC5D37E11A1C0E30007B4DFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Louis;
+				TargetAttributes = {
+					EC5D37E81A1C0E30007B4DFB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EC5D37FD1A1C0E32007B4DFB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EC5D37E81A1C0E30007B4DFB;
+					};
+				};
+			};
+			buildConfigurationList = EC5D37E41A1C0E30007B4DFB /* Build configuration list for PBXProject "Pollify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC5D37E01A1C0E30007B4DFB;
+			productRefGroup = EC5D37EA1A1C0E31007B4DFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC5D37E81A1C0E30007B4DFB /* Pollify */,
+				EC5D37FD1A1C0E32007B4DFB /* PollifyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC5D37E71A1C0E30007B4DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5D37F41A1C0E31007B4DFB /* Main.storyboard in Resources */,
+				EC5D37F91A1C0E31007B4DFB /* LaunchScreen.xib in Resources */,
+				EC5D37F61A1C0E31007B4DFB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5D37FC1A1C0E32007B4DFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5D37E51A1C0E30007B4DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5D37F11A1C0E31007B4DFB /* ViewController.swift in Sources */,
+				EC5D37EF1A1C0E31007B4DFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC5D37FA1A1C0E32007B4DFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC5D38051A1C0E32007B4DFB /* PollifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC5D38001A1C0E32007B4DFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC5D37E81A1C0E30007B4DFB /* Pollify */;
+			targetProxy = EC5D37FF1A1C0E32007B4DFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC5D37F21A1C0E31007B4DFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5D37F31A1C0E31007B4DFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC5D37F71A1C0E31007B4DFB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC5D37F81A1C0E31007B4DFB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC5D38061A1C0E32007B4DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC5D38071A1C0E32007B4DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC5D38091A1C0E32007B4DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pollify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC5D380A1A1C0E32007B4DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Pollify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC5D380C1A1C0E32007B4DFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PollifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pollify.app/Pollify";
+			};
+			name = Debug;
+		};
+		EC5D380D1A1C0E32007B4DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PollifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pollify.app/Pollify";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC5D37E41A1C0E30007B4DFB /* Build configuration list for PBXProject "Pollify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5D38061A1C0E32007B4DFB /* Debug */,
+				EC5D38071A1C0E32007B4DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC5D38081A1C0E32007B4DFB /* Build configuration list for PBXNativeTarget "Pollify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5D38091A1C0E32007B4DFB /* Debug */,
+				EC5D380A1A1C0E32007B4DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC5D380B1A1C0E32007B4DFB /* Build configuration list for PBXNativeTarget "PollifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC5D380C1A1C0E32007B4DFB /* Debug */,
+				EC5D380D1A1C0E32007B4DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC5D37E11A1C0E30007B4DFB /* Project object */;
+}
