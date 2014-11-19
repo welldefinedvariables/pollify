@@ -12,9 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        var myRootRef = Firebase(url:"https://<your-firebase>.firebaseio.com/")
+        var ref = Firebase(url:"https://vivid-torch-9331.firebaseio.com/Poll/00000001/Title")
         // Write data to Firebase
-        myRootRef.setValue("Do you have data? You'll love Firebase.")
+        ref.observeEventType(.Value, withBlock: { snapshot in
+            println(snapshot.value)
+            }, withCancelBlock: { error in
+                println(error.description)
+        })
         // Do any additional setup after loading the view, typically from a nib.
 
     }
