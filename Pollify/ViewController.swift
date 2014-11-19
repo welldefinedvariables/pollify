@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        var myRootRef = Firebase(url:"https://<your-firebase>.firebaseio.com/")
+        // Write data to Firebase
+        myRootRef.setValue("Do you have data? You'll love Firebase.")
         // Do any additional setup after loading the view, typically from a nib.
+
     }
 
     override func didReceiveMemoryWarning() {
